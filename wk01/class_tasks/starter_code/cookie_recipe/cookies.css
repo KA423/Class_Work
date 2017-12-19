@@ -1,0 +1,23 @@
+body {
+  background: #ffe;
+  text-align: center;
+}
+h3 {
+  color: #887;
+}
+footer {
+  color: #900
+}
+img {
+  border-color: black;
+  border-width: 5px;
+  border-radius: 30px;
+  border-style: dashed;
+}
+p {
+  margin: 1px;
+}
+.main-headding{
+  color: green;
+  font-style: italic;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="fixed">
+    <p>My container is <span>position: fixed</span> and I have pushed myself against the right-hand side.</p>
+    <p>Scroll down the page but I will stay glued to the screen.</p>
+    <p>I am commonly used in navigation menus that are forced to stay on the screen.</p>
+  </section>
+  <section class="static">
+    <p>My container is <span>position: static</span></p>
+    <p>If you don't provide a position property for an element, it is by default static, like my container</p>
+  </section>
+  <section class="relative">
+    <p>My container is <span>position: relative</span></p>
+    <p>I am positioned relative to my normal position.</p>
+    <p>I am currently 2% left of where I would normally sit.</p>
+  </section>
+  <section class="absolute">
+    <p>My container is <span>position: absolute</span></p>
+    <p>I am positioned in the center of the page (check my css).</p>
+    <p>Since I have no parent element with position: relative, I am positioned relative to the entire page.</p>
+  </section>
+  <section class="relative-parent">
+    <p>My container is <span>position: relative</span></p>
+    <p>I contain an element that has position: absolute</p>
+    <section class="absolute-child">
+      <p>My container is <span>position: absolute</span></p>
+      <p>I am inside a position: relative container, so I am positioned relative to my parent container.</p>
+      <p>I am pushed against my parent element's bottom, right-hand side</p>
+    </section>
+  </section>
+</body>
+</html>

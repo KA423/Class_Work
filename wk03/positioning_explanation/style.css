@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 2em 0;
+}
+
+section {
+  padding: 1em;
+  border: 1px solid red;
+  width: 30%;
+  margin: 0 0 2em 0;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+  font-family: Arial, sans-serif;
+}
+
+p span {
+  font-weight: bold;
+  font-size: 1.25em;
+}
+
+.static {
+  position: static;
+}
+
+.fixed {
+  position: fixed;
+  right: 0;
+}
+
+.relative {
+  position: relative;
+  left: 2%;
+}
+
+.absolute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.relative-parent {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  top: 7em;
+  height: 30em;
+}
+
+.absolute-child {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  margin-bottom: 0;
+  width: 50%;
+}
